@@ -8,13 +8,55 @@ class ConsultData extends StatefulWidget {
 }
 
 class _ConsultDataState extends State<ConsultData> {
+  var textStyle = new TextStyle(fontSize: 20);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text("Número de Casos"),
       ),
-      body: Text("tela para consultar o número atual de casos e a taxa de contágio na região "),
+      body: Padding(
+        padding: EdgeInsets.all(10),
+          child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Row(
+            children: [
+              Text(
+                "Número total de casos: 637",
+                style: new TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ],
+          ),
+          Row(
+            children: [
+              Text(
+                "Casos ativos: 288",
+                style: textStyle,
+              ),
+            ],
+          ),
+          Row(
+            children: [
+              Text(
+                "Recuperados: 339",
+                style: textStyle,
+              ),
+            ],
+          ),
+          Row(
+            children: [
+              Text(
+                "Óbitos: 10",
+                style: textStyle,
+              ),
+            ],
+          ),
+        ],
+      )),
     );
   }
 }
