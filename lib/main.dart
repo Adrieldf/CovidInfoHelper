@@ -127,6 +127,21 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Padding(
+              padding: EdgeInsets.all(10),
+              child: Text("Aplicativo disponível para a região de Caxias do Sul",
+              style: new TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.bold, 
+              )),
+            ),
+            Padding(
+              padding: EdgeInsets.all(10),
+              child: Text("Escolha abaixo um menu para acessar",
+              style: new TextStyle(
+                fontSize: 16,
+              )),
+            ),
             SizedBox(
               width: 200,
               height: 75,
