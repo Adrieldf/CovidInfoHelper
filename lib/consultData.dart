@@ -63,6 +63,39 @@ class _ConsultDataState extends State<ConsultData> {
               ),
             ],
           ),
+          SizedBox(height: 10),
+          Row(
+            children: [
+              Text(
+                "Aguardam Laudo: 71",
+                style: textStyle,
+              ),
+            ],
+          ),
+          Row(
+            children: [
+              Text(
+                "Negativos: 9923",
+                style: textStyle,
+              ),
+            ],
+          ),
+          Row(
+            children: [
+              Text(
+                "Testes Totais: 10.960",
+                style: textStyle,
+              ),
+            ],
+          ),
+          Row(
+            children: [
+              Text(
+                "Óbitos em investigação: 00",
+                style: textStyle,
+              ),
+            ],
+          ),
         ],
       )),
     );
