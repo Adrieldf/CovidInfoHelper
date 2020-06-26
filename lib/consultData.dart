@@ -96,6 +96,18 @@ class _ConsultDataState extends State<ConsultData> {
               ),
             ],
           ),
+          SizedBox(height: 30),
+          Row(
+            children: [
+              Text(
+                "Atualizado última vez as 19hs do dia 26/06/2020",
+                style: new TextStyle(
+                  fontSize: 12,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ],
+          ),
         ],
       )),
     );
