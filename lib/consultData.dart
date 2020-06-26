@@ -23,7 +23,7 @@ class _ConsultDataState extends State<ConsultData> {
           Row(
             children: [
               Text(
-                "Número total de casos: 637",
+                "Número total de casos: 966",
                 style: new TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
@@ -34,7 +34,7 @@ class _ConsultDataState extends State<ConsultData> {
           Row(
             children: [
               Text(
-                "Casos ativos: 288",
+                "Casos ativos: 396",
                 style: textStyle,
               ),
             ],
@@ -42,7 +42,7 @@ class _ConsultDataState extends State<ConsultData> {
           Row(
             children: [
               Text(
-                "Recuperados: 339",
+                "Recuperados: 555",
                 style: textStyle,
               ),
             ],
@@ -50,7 +50,15 @@ class _ConsultDataState extends State<ConsultData> {
           Row(
             children: [
               Text(
-                "Óbitos: 10",
+                "Óbitos: 15",
+                style: textStyle,
+              ),
+            ],
+          ),
+          Row(
+            children: [
+              Text(
+                "Bandeira Atual: Vermelha",
                 style: textStyle,
               ),
             ],
